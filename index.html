@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>z
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Site vitrine Ariette</title>
 </head>
 
@@ -17,24 +15,26 @@
 
     <header>
         <nav>
-            <ul id="list-inline">
-                <a href="#landscapes">
-                    <ion-icon name="images-outline"></ion-icon> <br> landscapes
-                </a>
-                <a href="#portraits">
-                    <ion-icon name="camera-outline"></ion-icon> <br> Portrait
-                </a>
-
-                <a href="#biographie">
-                    <ion-icon name="book-outline"></ion-icon> <br> Biographie
-                </a>
-                <a href="#contactContainer">
-                    <ion-icon name="people-outline"></ion-icon> <br> contact
-                </a>
+            <ul class="nav-links sticky">
+                <li>
+                    <a href="#landscapes" class="animationli">Landscapes</a>
+                </li>
+                <li>
+                    <a href="#portraits" class="animationli">Portrait</a></li>
+                <li>
+                    <a href="#biographie" class="animationli">Biographie</a>
+                </li>
+                <li>
+                    <a href="#contactContainer" class="animationli">Contact</a>
+                </li>
             </ul>
+            <div class="burger colle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+            </div>
         </nav>
+        <h1>Ariette <br> DESCHAMPS </h1>
     </header>
-    <h1>Ariette <br> DESCHAMPS </h1>
     <main>
 
         <!-- LANDSCAPES -->
@@ -185,6 +185,9 @@
                 , toute autre exploitation des visuels et rédactionnels est strictement interdite.</p>
         </div>
     </footer>
+    <script src="assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
